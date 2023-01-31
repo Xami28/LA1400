@@ -78,7 +78,7 @@ public class Aimbot extends JuniorRobot
             turnGunRight(360);
             ahead(fieldHeight/2);
 			fire (2);
-         }
+        }
 		 	good();
 	}
 	public void good() {
