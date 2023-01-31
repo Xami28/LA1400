@@ -12,13 +12,13 @@ public class Aimbot extends JuniorRobot
 		// Depending on Enemy amout, switch to different Actions.
 		if ( checkPlayers > 15) { 
 		dip(); // move away from Others.
-	    }
+	    	}
 		else if ( checkPlayers < 10) {
 		warmachine();
 		}
 		else if (checkPlayers < 15) {
 		good(); // Go around the Field casually.
-	    }
+	    	}
 		else if (checkPlayers == 0) {
 		toosafe(); 	// Scanning speed is incresed to find Others.
 		}
